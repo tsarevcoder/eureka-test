@@ -1,0 +1,13 @@
+
+server:
+  port: 5003
+spring:
+  application:
+    name: order-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5002/eureka/
+  instance:
+    prefer-ip-address: true
+
